@@ -13,4 +13,6 @@ function increment(){
 function saving(){
     save.innerText+=" " +count + " -"
     //save.textContent += count + " - " can also be used as it does not remove previously added spaces
+    counter.innerText = 0
+    count = 0
 }
