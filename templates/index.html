@@ -1,10 +1,14 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <title>Passenger Counter</title>
+        <link rel="stylesheet" href="static/css/index.css">
     </head>
     <body>
         <h1>People entered:</h1>
-        <h2 id="count">0</h2>
+        <h2 id="counter">0</h2>
+        <button id="increment-btn" onclick="increment()">Increment</button>
+        <button id="save-btn" onclick="saving()">Save</button>
+        <p id="save">Previous entires: </p>
+        <script src="{{url_for('static', filename='js/index.js')}}"></script>
     </body>
-    <script src="index.js"></script>
 </html>
