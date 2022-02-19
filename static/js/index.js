@@ -16,3 +16,8 @@ function saving(){
     counter.innerText = 0
     count = 0
 }
+
+
+function Clear(){
+    save.textContent= "Previous entries:"
+}
